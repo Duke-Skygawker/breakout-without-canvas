@@ -1,0 +1,49 @@
+body {
+  background-color: black;
+}
+
+canvas {
+  margin: 2rem;
+  background-color: rgba(64, 64, 64, 0.4);
+  border: solid red 1px;
+}
+
+.grid {
+  position: absolute;
+  margin: 2rem;
+  width: 800px;
+  height: 600px;
+  background-color: rgba(64, 64, 64, 0.4);
+  border: solid red 1px;
+}
+#grid {
+  z-index: 99;
+  background-color: rgba(64, 64, 64, 0);
+}
+
+.block {
+  position: absolute;
+  background-color: blueviolet;
+}
+.player {
+  position: absolute;
+  background-color: #00badc;
+}
+.ball {
+  position: absolute;
+  background-color: #39ff14;
+  border-radius: 50%;
+}
+
+.gameEnd {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: 999;
+}
+.gameEnd h1 {
+  text-align: center;
+  font-size: 5rem;
+  color: red;
+}
